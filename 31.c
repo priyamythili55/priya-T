@@ -11,5 +11,6 @@ if(a[i]!=' ')
 {
 count=count+1;
 }
+}
 printf("%d",count);
 }
