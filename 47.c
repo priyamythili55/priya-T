@@ -11,9 +11,9 @@ void main()
     {
       if(a[i]>a[j])
       {
-        t=a[j];
-        a[j]=a[i];
-        a[i]=t;
+        t=a[i];
+        a[i]=a[j];
+        a[j]=t;
       }
     }
   }
